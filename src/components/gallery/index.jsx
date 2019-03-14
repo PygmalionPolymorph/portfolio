@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
 import './styles.css';
 
-export default ({ images }) => {
+export const Gallery = ({ elements, detailView, listView }) => {
   const [active, setActive] = useState(0);
   return (
     <section className="gallery">
-      <img
-        alt={`${images[active].name}: ${images[active].alt}`}
-        src={images[active].src}
-        className="gallery__active"
-      />
-      {images.length <= 1 ? null : (
+      {detailView(elements[active])}
+      {elements.length <= 1 ? null : (
         <div className="gallery__list">
-          {images.map((img, i) => (
+          {elements.map((elem, i) => (
             <button
               type="button"
               className="gallery__list-button"
@@ -20,11 +16,7 @@ export default ({ images }) => {
                 setActive(i);
               }}
             >
-              <img
-                alt={`Painting #${i}: ${img.title}`}
-                className="gallery__list-image"
-                src={img.src}
-              />
+              {listView(elem, i)}
             </button>
           ))}
         </div>

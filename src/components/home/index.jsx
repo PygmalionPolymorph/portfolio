@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import statue from '../../images/statue.png';
+import statue from '../../assets/home/statue.png';
 
 import './styles.css';
 
@@ -21,7 +21,6 @@ export const Home = ({ inverse }) => (
       <Link to="/programmer">PROGRAMMER</Link>
       <Link to="/musicenthusiast">MUSIC ENTHUSIAST</Link>
       <Link to="/filmlover">FILM LOVER</Link>
-      <Link to="/japanophile">JAPANOPHILE</Link>
     </nav>
   </main>
 );

@@ -42,3 +42,17 @@ body {
   line-height: 2em;
 }
 
+a {
+    color: initial;
+    text-decoration: none;
+}
+
+.program-link {
+    display: block;
+    margin: 0 0 1.7em;
+}
+
+.program-link__subline {
+    display: block;
+    font-size: .65em;
+}

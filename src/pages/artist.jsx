@@ -1,13 +1,29 @@
 import React from 'react';
 
 import { LinkBar } from '../components/linkBar';
+import { Gallery } from '../components/gallery';
 
 import SEO from '../components/seo';
-import Gallery from '../components/gallery/index';
 
-import afloat from '../images/afloat.jpg';
-import neondemon from '../images/neondemon.jpg';
-import haunting from '../images/haunting.jpg';
+import afloat from '../assets/artist/afloat.jpg';
+import neondemon from '../assets/artist/neondemon.jpg';
+import haunting from '../assets/artist/haunting.jpg';
+
+const ImageDetail = image => (
+  <img
+    alt={`${image.name}: ${image.alt}`}
+    src={image.src}
+    className="gallery__active"
+  />
+);
+
+const ImageListItem = (image, i) => (
+  <img
+    alt={`Painting #${i}: ${image.title}`}
+    className="gallery__list-image"
+    src={image.src}
+  />
+);
 
 const images = [
   {
@@ -23,14 +39,14 @@ const images = [
   {
     title: 'Haunting',
     src: haunting,
-    alt: 'A woman in a long red gown is walking towards the viewer. Under the coat, she wears nothing, so you can see her bare body. The atmosphere is dark and haunting.'
+    alt: 'A woman in a long red gown is walking towards the viewer. Under the coat, she wears nothing, so you can see her bare body. The atmosphere is dark and haunting.',
   },
 ];
 
 export default () => (
   <main className="page">
     <SEO title="Artist | PygmalionPolymorph" />
-    <Gallery images={images} />
+    <Gallery detailView={ImageDetail} listView={ImageListItem} elements={images} />
     <LinkBar links={['instagram']} />
   </main>
 );

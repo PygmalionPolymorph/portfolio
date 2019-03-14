@@ -8,7 +8,7 @@
     "gatsby": "^2.1.27",
     "gatsby-image": "^2.0.31",
     "gatsby-plugin-manifest": "^2.0.22",
-    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.8",
     "gatsby-plugin-sharp": "^2.0.25",
     "gatsby-source-filesystem": "^2.0.23",
@@ -19,6 +19,11 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.16.4"
   },
   "keywords": [

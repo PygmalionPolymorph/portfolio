@@ -1,0 +1,94 @@
+.home__head {
+    display: grid;
+    grid-template-areas: "statue" "headline";
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .home__head {
+        grid-template-areas: "statue headline"
+    }
+}
+
+.home__statue {
+    grid-area: statue;
+    height: 80%;
+    object-fit: contain;
+    align-self: end;
+    justify-self: center;
+    margin-right: 33vw;
+}
+
+@media screen and (min-width: 768px) {
+    .home__statue {
+        justify-self: right;
+        margin-right: 0;
+    }
+}
+
+.home__pygmalionpolymorph {
+    grid-area: headline;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .7em;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .home__pygmalionpolymorph {
+        font-size: 3rem;
+    }
+}
+
+.home__pygmalion {
+    font-size: 1em;
+}
+
+.home__polymorph {
+    font-size: .6em;
+}
+
+.home__pygmalionpolymorph span {
+    display: block;
+}
+
+.home--inverse {
+    transform: translateY(-100%);
+    clip-path: polygon(17.45% 22.53%, 77.45% 10.16%, 59.93% 42.87%);
+    filter: invert(1);
+    background: var(--white);
+}
+
+.home__nav {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 150vh;
+    margin: 30vh auto 20vh;
+    position: relative;
+    width: 80vw;
+    max-width: 1280px;
+}
+
+.home__nav a {
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .8em;
+    color: var(--grey);
+}
+
+.home__quote {
+    border-top: 1px solid black;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 7em;
+    display: inline-block;
+}
+

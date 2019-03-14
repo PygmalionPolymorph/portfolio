@@ -1,0 +1,8 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "import/prefer-default-export": false,
+    "react/prop-types": false,
+    "jsx-a11y/media-has-caption": false
+  }
+}

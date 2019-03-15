@@ -1,20 +1,15 @@
 import React from 'react';
-import { LinkBar } from '../components/linkBar';
+
+import SEO from '../components/seo';
+import { MusicEnthusiast } from '../pagecomponents/musicenthusiast/index';
+
+import '../style/styles.styl';
 
 export default () => (
-  <>
-    <section className="listing">
-      <ul>
-        <li>Prog</li>
-        <li>Harsh Noise</li>
-        <li>Ambient</li>
-        <li>Krautrock</li>
-        <li>Progmetal</li>
-        <li>Hardcore</li>
-        <li>Synth</li>
-        <li>J-POP</li>
-      </ul>
-    </section>
-    <LinkBar links={['lastfm', 'discogs']} />
-  </>
+  <section className="page">
+    <SEO title="Music enthusiast" keywords={['portfolio', 'homepage', 'artist']} />
+    <MusicEnthusiast />
+    <MusicEnthusiast inverse />
+  </section>
 );
+

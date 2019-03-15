@@ -1,26 +1,25 @@
-import React, { useState } from 'react';
-import './styles.css';
+import React from 'react';
+import './styles.styl';
 
-export const Gallery = ({ elements, detailView, listView }) => {
-  const [active, setActive] = useState(0);
-  return (
-    <section className="gallery">
-      {detailView(elements[active])}
-      {elements.length <= 1 ? null : (
-        <div className="gallery__list">
-          {elements.map((elem, i) => (
-            <button
-              type="button"
-              className="gallery__list-button"
-              onClick={() => {
-                setActive(i);
-              }}
-            >
-              {listView(elem, i)}
-            </button>
-          ))}
-        </div>
-      )}
-    </section>
-  );
-};
+export const Gallery = ({
+  elements, detailView, listView, active,
+}) => (
+  <section className="gallery">
+    {detailView(elements[active()])}
+    {elements.length <= 1 ? null : (
+      <div className="gallery__list">
+        {elements.map((elem, i) => (
+          <button
+            type="button"
+            className="gallery__list-button"
+            onClick={() => {
+              active(i);
+            }}
+          >
+            {listView(elem, i)}
+          </button>
+        ))}
+      </div>
+    )}
+  </section>
+);

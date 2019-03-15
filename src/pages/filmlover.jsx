@@ -1,28 +1,14 @@
 import React from 'react';
-import { LinkBar } from '../components/linkBar';
+
+import SEO from '../components/seo';
+import { FilmLover } from '../pagecomponents/filmlover/index';
+
+import '../style/styles.styl';
 
 export default () => (
-  <>
-    <section className="listing">
-      <ul>
-        <li>Park-Chan Wook</li>
-        <li>Nicholas Winding Refn</li>
-        <li>Wong Kar-Wai</li>
-        <li>Denis Villeneuve</li>
-        <li>Darren Arronofsky</li>
-      </ul>
-    </section>
-    <section className="listing">
-      <ul>
-        <li>The Handmaiden</li>
-        <li>The Neon Demon</li>
-        <li>In the mood for love</li>
-        <li>Blade Runner 2049</li>
-        <li>mother!</li>
-        <li>Seven Samurai</li>
-        <li>Raw</li>
-      </ul>
-    </section>
-    <LinkBar links={['letterboxd']} />
-  </>
+  <section className="page">
+    <SEO title="Filmlover" keywords={['portfolio', 'homepage', 'artist']} />
+    <FilmLover />
+    <FilmLover inverse />
+  </section>
 );

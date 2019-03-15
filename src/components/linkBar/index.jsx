@@ -7,7 +7,7 @@ import { Soundcloud } from '../../icons/soundcloud';
 import { Letterboxd } from '../../icons/letterboxd';
 import { Instagram } from '../../icons/instagram';
 
-import './styles.css';
+import './styles.styl';
 
 const linkComponents = {
   instagram: (

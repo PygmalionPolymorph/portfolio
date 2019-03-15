@@ -1,0 +1,75 @@
+@require "base.styl"
+
+html
+  font-size 14px
+
++desktop()
+  html
+    font-size 16px
+
+body
+  overflow-x hidden
+  margin 0
+  background-image url('../assets/noise.png')
+
+.page
+  display flex
+  flex-flow column nowrap
+  justify-content center
+  position relative
+
+.listing
+  margin 10vh auto 10vh
+  display flex
+  justify-content center
+  text-align center
+  cursor default
+
+  ul
+    list-style-type none
+    padding 0
+
+    li
+      text-transform uppercase
+      letter-spacing 2px
+      line-height 2em
+
+a
+  color initial
+  text-decoration none
+
+main
+  min-height 100vh
+
+audio
+  width 30%
+
+.program-link
+  display block
+  margin 0 0 1.7em
+
+.program-link__subline
+  display block
+  font-size .65em
+
+.inverse
+  filter invert(1)
+  background #fff
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 100%
+
+  &:after
+    content ""
+    z-index -1
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    filter invert(1)
+    background-image url('../assets/black.png')
+
+

@@ -60,6 +60,11 @@
         <option name="TAB_SIZE" value="2" />
       </indentOptions>
     </codeStyleSettings>
+    <codeStyleSettings language="Stylus">
+      <indentOptions>
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
     <codeStyleSettings language="TypeScript">
       <option name="SPACE_BEFORE_CATCH_PARENTHESES" value="false" />
       <option name="SPACE_BEFORE_SWITCH_PARENTHESES" value="false" />

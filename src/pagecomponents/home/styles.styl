@@ -1,0 +1,74 @@
+@require "../../style/base.styl"
+
+.home.inverse
+  clip-path polygon(17.81% 20.16%, 77.45% 10.16%, 69.00% 31.18%, 82.1% 64.57%, 60.35% 79.84%, 42.08% 95.92%, 47.41% 101%, 10.62% 101%, 42.08% 95.92%, 60.35% 79.84%, 31.43% 54.44%, 82.1% 64.57%, 69.00% 31.18%)
+
+.home__head
+  display grid
+  grid-template-areas "statue" "headline"
+  justify-content center
+  align-items center
+  height 70vh
+  width 70vw
+  margin 0 auto
+
+  +desktop()
+    grid-template-areas "statue headline"
+
+.home__statue
+  grid-area statue
+  height 80%
+  object-fit contain
+  align-self end
+  justify-self center
+  margin-right 33vw
+
+  +desktop()
+    justify-self right
+    margin-right 0
+
+.home__pygmalionpolymorph
+  grid-area headline
+  text-transform uppercase
+  font-size 1.5rem
+  font-weight 300
+  letter-spacing .7em
+  text-align center
+
+  +desktop()
+    font-size 3rem
+
+  span
+    display block
+
+
+.home__pygmalion
+  font-size 1em
+
+.home__polymorph
+  font-size .6em
+
+.home__nav
+  display flex
+  flex-flow column nowrap
+  justify-content space-between
+  align-items center
+  height 150vh
+  margin 30vh auto 20vh
+  position relative
+  width 80vw
+  max-width 1280px
+
+  a
+    text-decoration none
+    text-align center
+    letter-spacing .8em
+    color grey
+
+.home__quote
+  border-top 1px solid black
+  margin 0 auto
+  text-transform uppercase
+  text-align center
+  line-height 7em
+  display inline-block

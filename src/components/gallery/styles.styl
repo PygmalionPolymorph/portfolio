@@ -1,0 +1,45 @@
+@require '../../style/base.styl';
+
+.gallery
+  display flex
+  flex-flow column nowrap
+  align-items center
+
+.gallery__active
+  max-height 60vh
+  margin 2.5em
+  max-width 100vw
+  object-fit contain
+  border: 10px solid white
+  background white
+  +desktop()
+    min-height 60vh
+
+.gallery__list
+  height 15vh
+  display flex
+  justify-content center
+  margin 1em
+
+.gallery__list-button
+  background none
+  border none
+  height 100%
+
+.gallery__list-image
+  height 100%
+  display block
+  cursor pointer
+  transition opacity .2s ease
+
+  & + .gallery__list-image
+    margin-left 1em
+
+  &:hover
+    opacity .9
+
+.inverse .gallery__list-image
+  filter invert(1)
+.inverse .gallery__active
+  filter invert(1)
+

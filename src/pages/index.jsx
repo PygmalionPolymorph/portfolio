@@ -1,16 +1,16 @@
-import React from "react"
+import React from 'react';
 
-import SEO from "../components/seo"
-import { Home } from "../components/home/index";
+import SEO from '../components/seo';
+import { Home } from '../pagecomponents/home/index';
 
-import '../style/styles.css';
+import '../style/styles.styl';
 
 const IndexPage = () => (
-  <section class="page">
-    <SEO title="Pygmalion Polymorph" keywords={[`portfolio`, `homepage`, `artist`]} />
+  <section className="page">
+    <SEO title="Pygmalion Polymorph" keywords={['portfolio', 'homepage', 'artist']} />
     <Home />
     <Home inverse />
   </section>
-)
+);
 
-export default IndexPage
+export default IndexPage;

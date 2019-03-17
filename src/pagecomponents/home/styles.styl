@@ -3,6 +3,9 @@
 .home.inverse
   clip-path polygon(17.81% 20.16%, 77.45% 10.16%, 69.00% 31.18%, 82.1% 64.57%, 60.35% 79.84%, 42.08% 95.92%, 47.41% 101%, 10.62% 101%, 42.08% 95.92%, 60.35% 79.84%, 31.43% 54.44%, 82.1% 64.57%, 69.00% 31.18%)
 
+  .home__statue
+    filter invert(1)
+
 .home__head
   display grid
   grid-template-areas "statue" "headline"
@@ -29,6 +32,7 @@
 
 .home__pygmalionpolymorph
   grid-area headline
+  cursor default
   text-transform uppercase
   font-size 1.5rem
   font-weight 300

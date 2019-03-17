@@ -3,6 +3,11 @@ import React from 'react';
 import afloat from '../../assets/artist/afloat.jpg';
 import haunting from '../../assets/artist/haunting.jpg';
 import neondemon from '../../assets/artist/neondemon.jpg';
+import ballerina from '../../assets/artist/ballerina.jpg';
+import figure from '../../assets/artist/figure.jpg';
+import porcelainii from '../../assets/artist/porcelainii.jpg';
+import tetris from '../../assets/artist/tetris.jpg';
+
 import { Gallery } from '../../components/gallery';
 
 import { LinkBar } from '../../components/linkBar';
@@ -25,6 +30,26 @@ const ImageListItem = (image, i) => (
 );
 
 const images = [
+  {
+    title: 'Figure',
+    src: figure,
+    alt: '',
+  },
+  {
+    title: 'Ballerina',
+    src: ballerina,
+    alt: '',
+  },
+  {
+    title: 'Tetris',
+    src: tetris,
+    alt: '',
+  },
+  {
+    title: 'Porcelain II',
+    src: porcelainii,
+    alt: '',
+  },
   {
     title: 'Afloat',
     src: afloat,

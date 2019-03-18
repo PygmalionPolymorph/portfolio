@@ -1,25 +1,31 @@
 @require '../../style/base.styl';
 
 .gallery
-  display flex
-  flex-flow column nowrap
+  display grid
+  grid-template-rows 60vh 1fr
   align-items center
+  justify-items center
+  grid-gap 1em
 
 .gallery__active
-  max-height 60vh
-  margin 2.5em
-  max-width 100vw
+  max-width 100%
+  height 100%
   object-fit contain
-  background white
+
   +desktop()
     min-height 60vh
 
 .gallery__list
   display flex
   flex-flow row wrap
-  justify-content center
   margin 1em
-  max-width 1300px
+  max-width 90vw
+  max-height calc(40vh - 2em)
+  overflow-y auto
+  justify-content center
+
+  +desktop()
+    max-width 1400px
 
 .gallery__list-button
   background none
@@ -39,8 +45,6 @@
   &:hover
     opacity .9
 
-.inverse .gallery__list-image
-  filter invert(1)
-.inverse .gallery__active
-  filter invert(1)
+.inverse .gallery
+  display none
 

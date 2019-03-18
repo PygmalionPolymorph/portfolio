@@ -42,7 +42,16 @@ main
   min-height 100vh
 
 audio
-  width 30%
+  width 90%
+  +desktop()
+    width 30%
+
+
+button:focus
+button:focus-inner
+button::-moz-focus-inner
+  outline none !important
+  border none
 
 .program-link
   display block

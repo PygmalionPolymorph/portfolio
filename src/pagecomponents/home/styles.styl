@@ -11,24 +11,24 @@
   grid-template-areas "statue" "headline"
   justify-content center
   align-items center
-  height 70vh
-  width 70vw
+  height 80vh
+  width 100vw
   margin 0 auto
 
   +desktop()
     grid-template-areas "statue headline"
+    height 70vh
+    width 70vw
 
 .home__statue
+  position relative
   grid-area statue
-  height 80%
-  object-fit contain
+  height 400px
   align-self end
-  justify-self center
-  margin-right 33vw
 
   +desktop()
-    justify-self right
-    margin-right 0
+    height 80%
+    right -50px
 
 .home__pygmalionpolymorph
   grid-area headline
@@ -60,14 +60,13 @@
   height 150vh
   margin 30vh auto 20vh
   position relative
-  width 80vw
+  width 100vw
   max-width 1280px
 
   a
     text-decoration none
     text-align center
     letter-spacing .8em
-    color grey
 
 .home__quote
   border-top 1px solid black

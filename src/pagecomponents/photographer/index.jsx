@@ -22,7 +22,7 @@ import './styles.styl';
 
 const ImageDetail = image => (
   <img
-    alt={`${image.name}: ${image.alt}`}
+    alt={`${image.title}: ${image.alt}`}
     src={image.src}
     className="gallery__active"
   />
@@ -105,8 +105,7 @@ const images = [
 ];
 
 export const Photographer = ({ inverse, active }) => (
-  <main className={`photographer ${inverse ? 'inverse' : null}`}>
-    <SEO title="Artist | PygmalionPolymorph" />
+  <main className={`photographer ${inverse ? 'inverse' : ''}`}>
     <Gallery
       active={active}
       detailView={ImageDetail}

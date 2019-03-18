@@ -50,27 +50,27 @@ const images = [
   {
     title: 'Existence',
     src: existence,
-    alt: '',
+    alt: 'A black and white photograph of the front of a church, from a frog\'s eye view. In front of the church there is a beggar sitting.',
   },
   {
     title: 'Alive',
     src: alive,
-    alt: '',
+    alt: 'Black and white photograph of tree branches forming a twisted shape.',
   },
   {
     title: 'Fallen',
     src: fallen,
-    alt: '',
+    alt: 'Dark and moody view of a needle forest. One tree has fallen down and lies in the front.',
   },
   {
     title: 'Way',
     src: way,
-    alt: '',
+    alt: 'Very dark forest with a path leading off into the darkness.',
   },
   {
     title: 'One in thousands',
     src: one,
-    alt: '',
+    alt: 'Autumn forest view with very saturated reds and oranges in the lush leaves. There is one tree with very yellow moss growing on it standing out.',
   },
   {
     title: 'Dawn of a new day',
@@ -80,22 +80,22 @@ const images = [
   {
     title: 'Blink',
     src: blink,
-    alt: '',
+    alt: 'A young man\'s naked torso with clock fingers sticking out of his belly button. The time runs quickly and he\'s trying to hold them back with all his power.',
   },
   {
     title: 'Custodian',
     src: custodian,
-    alt: '',
+    alt: 'A pale figure in a black coat stands amidst a field of fog. A diffuse light shines in the top right corner. The figure has a grim look on his face.'
   },
   {
     title: 'Akt',
     src: akt,
-    alt: '',
+    alt: 'A nude woman\'s back in black and white. Her head is in the shadow, so you cannot see her face.',
   },
   {
     title: 'Way II',
     src: way2,
-    alt: '',
+    alt: 'A green forest path leading off into the distance.',
   },
   {
     title: 'Suche',

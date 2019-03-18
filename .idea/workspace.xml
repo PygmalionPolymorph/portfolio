@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe1aa32-ab0a-491f-ac57-0d4454a53815" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/artist/afloat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/artist/haunting.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/artist/neondemon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/artist/neondemon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photographer/asylum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/photographer/asylum.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photographer/barrier.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photographer/belonging.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photographer/dawn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photographer/suche.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/photographer/suche.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gallery/styles.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery/styles.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pagecomponents/artist/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pagecomponents/artist/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pagecomponents/musician/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pagecomponents/musician/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pagecomponents/photographer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pagecomponents/photographer/index.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -25,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pagecomponents/photographer/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+            <state relative-caret-position="848">
+              <caret line="92" column="56" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -37,11 +31,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pagecomponents/musician/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="41" column="105" selection-start-line="41" selection-start-column="105" selection-end-line="41" selection-end-column="105" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/gallery/styles.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pagecomponents/artist/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +104,6 @@
         <option value="$PROJECT_DIR$/src/pages/musicenthusiast.jsx" />
         <option value="$PROJECT_DIR$/src/pagecomponents/artist/styles.styl" />
         <option value="$PROJECT_DIR$/src/utils/stream.js" />
-        <option value="$PROJECT_DIR$/src/pagecomponents/artist/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/gallery/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/artist.jsx" />
         <option value="$PROJECT_DIR$/src/pages/photographer.jsx" />
@@ -97,7 +114,6 @@
         <option value="$PROJECT_DIR$/src/pagecomponents/filmlover/index.jsx" />
         <option value="$PROJECT_DIR$/src/pagecomponents/programmer/index.jsx" />
         <option value="$PROJECT_DIR$/src/pagecomponents/photographer/styles.styl" />
-        <option value="$PROJECT_DIR$/src/pagecomponents/musician/index.jsx" />
         <option value="$PROJECT_DIR$/src/pagecomponents/programmer/styles.styl" />
         <option value="$PROJECT_DIR$/src/pagecomponents/musicenthusiast/index.jsx" />
         <option value="$PROJECT_DIR$/src/pagecomponents/musicenthusiast/styles.styl" />
@@ -105,8 +121,10 @@
         <option value="$PROJECT_DIR$/src/style/styles.styl" />
         <option value="$PROJECT_DIR$/src/pagecomponents/home/index.jsx" />
         <option value="$PROJECT_DIR$/src/pagecomponents/home/styles.styl" />
-        <option value="$PROJECT_DIR$/src/pagecomponents/photographer/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/gallery/styles.styl" />
+        <option value="$PROJECT_DIR$/src/pagecomponents/musician/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pagecomponents/artist/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pagecomponents/photographer/index.jsx" />
       </list>
     </option>
   </component>
@@ -145,8 +163,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,9 +394,10 @@
     </configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1920" height="1051" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2683706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -487,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pagecomponents/artist/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/artist.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -598,16 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pagecomponents/musician/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pagecomponents/musicenthusiast/styles.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -660,20 +659,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pagecomponents/photographer/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/gallery/styles.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+        <state relative-caret-position="308">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pagecomponents/musician/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="41" column="105" selection-start-line="41" selection-start-column="105" selection-end-line="41" selection-end-column="105" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/gallery/styles.styl">
+    <entry file="file://$PROJECT_DIR$/src/pagecomponents/artist/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="571">
+          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pagecomponents/photographer/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="92" column="56" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

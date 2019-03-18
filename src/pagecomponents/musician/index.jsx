@@ -2,7 +2,7 @@ import React from 'react';
 import { LinkBar } from '../../components/linkBar';
 import { Gallery } from '../../components/gallery';
 
-import dearest from '../../assets/musician/witches.jpg';
+import dearest from '../../assets/musician/dearest.jpg';
 import dearestAudio from '../../assets/musician/dearest.mp3';
 
 import zerotwentynine from '../../assets/musician/0-29.jpg';
@@ -33,13 +33,13 @@ const elements = [
   {
     title: 'Dearest',
     src: dearest,
-    alt: 'Pencil drawing of a female hip with a rope tied around it. The genitalia are covered by a sakura blossom.',
+    alt: 'Drawing of a woman\'s body lying on the ground, the ground shattered beneath her. Her hair and shadow are emphasized by black watercolor.',
     audio: dearestAudio,
   },
   {
     title: '0-29',
     src: zerotwentynine,
-    alt: 'Drawing of a woman\'s body lying on the ground, the ground shattered beneath her. Her hair and shadow are emphasized by black watercolor.',
+    alt: 'Drawing of a woman falling down backwards into deep water. Bubbles are flying upward around her.',
     audio: zerotwentynineAudio,
   },
 ];

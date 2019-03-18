@@ -33,22 +33,22 @@ const images = [
   {
     title: 'Figure',
     src: figure,
-    alt: '',
+    alt: 'A woman hangs from a rope, holding her body with her hands and feet, her back forming a tear shape.',
   },
   {
     title: 'Ballerina',
     src: ballerina,
-    alt: '',
+    alt: 'Black and white painting of a dancing ballerina. She is standing on one toe and her eyes are closed in ecstasy.',
   },
   {
     title: 'Tetris',
     src: tetris,
-    alt: '',
+    alt: 'A naked woman lying upside down, her crotch exposed. Where her genitalia would be, there is an empty rectangle with a tetris bar close to it.',
   },
   {
     title: 'Porcelain II',
     src: porcelainii,
-    alt: '',
+    alt: 'A pencil portrait of a woman with short hair and a sharp eyeline. Her expression is between shocked and curious.',
   },
   {
     title: 'Afloat',
@@ -63,7 +63,7 @@ const images = [
   {
     title: 'Haunting',
     src: haunting,
-    alt: 'A woman in a long red gown is walking towards the viewer. Under the coat, she wears nothing, so you can see her bare body. The atmosphere is dark and haunting.',
+    alt: 'A woman in a long red gown is walking towards the viewer. Under the coat she wears nothing, so you can see her bare body. The atmosphere is dark and haunting.',
   },
 ];
 

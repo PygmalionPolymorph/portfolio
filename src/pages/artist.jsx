@@ -49,7 +49,6 @@ export const query = graphql`
 const active = stream(0);
 
 export default ({ data }) => {
-  console.log(data);
   useStreamState(active);
 
   return (

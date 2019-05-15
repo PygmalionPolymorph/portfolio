@@ -5,7 +5,7 @@ export const Gallery = ({
   elements, detailView, listView, active,
 }) => (
   <section className="gallery">
-    {detailView(elements[active()])}
+    {elements.length === 0 ? null : detailView(elements[active()])}
     {elements.length <= 1 ? null : (
       <div className="gallery__list">
         {elements.map((elem, i) => (

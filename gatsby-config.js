@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: 'Pygmalion Polymorph',
@@ -29,5 +33,12 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-stylus',
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: '48k554uplsjn',
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
   ],
 };

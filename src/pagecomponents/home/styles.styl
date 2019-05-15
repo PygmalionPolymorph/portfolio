@@ -8,16 +8,17 @@
 
 .home__head
   display grid
-  grid-template-areas "statue" "headline"
+  grid-template-areas "statue" "headline" "gap" "arrow"
+  grid-template-rows 7fr 1fr 2fr 1fr
   justify-content center
   align-items center
-  height 80vh
+  height 100vh
   width 100vw
   margin 0 auto
 
   +desktop()
-    grid-template-areas "statue headline"
-    height 70vh
+    grid-template-areas "statue headline" "_ _" "arrow arrow"
+    grid-template-rows 10fr 3fr 1fr
     width 70vw
 
 .home__statue
@@ -68,10 +69,8 @@
     text-align center
     letter-spacing .8em
 
-.home__quote
-  border-top 1px solid black
-  margin 0 auto
-  text-transform uppercase
-  text-align center
-  line-height 7em
-  display inline-block
+.home__scrolldown
+  align-self flex-start
+  justify-self center
+  grid-area arrow
+

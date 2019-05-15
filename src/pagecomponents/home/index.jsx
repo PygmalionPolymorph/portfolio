@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Img from 'gatsby-image';
+import Arrow from '../../components/arrow/index';
 
 import './styles.styl';
 
@@ -12,6 +13,7 @@ export const Home = ({ image, inverse }) => (
         <span className="home__pygmalion">Πυγμαλιων</span>
         <span className="home__polymorph">Πολυμορφ</span>
       </h1>
+      <Arrow className="home__scrolldown" label="Scroll down" />
     </section>
     <nav className="home__nav">
       <Link to="/artist">ARTIST</Link>

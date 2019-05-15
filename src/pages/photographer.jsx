@@ -28,15 +28,18 @@ export const query = graphql`
     allContentfulCategory(filter: { title: { eq: "photographer" }}) {
       edges {
         node {
+          title
           items {
-            title
-            photo {
-              description
-              src: fluid(maxWidth: 1000, quality:100) {
-                ...GatsbyContentfulFluid
-              }
-              thumb: fixed(height: 150, width: 150) {
-                ...GatsbyContentfulFixed
+            ...on ContentfulImage {
+              title
+              photo {
+                description
+                src: fluid(maxWidth: 1000, quality:100) {
+                  ...GatsbyContentfulFluid
+                }
+                thumb: fixed(height: 150, width: 150) {
+                  ...GatsbyContentfulFixed
+                }
               }
             }
           }

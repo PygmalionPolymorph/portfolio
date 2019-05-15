@@ -29,15 +29,17 @@ export const query = graphql`
     edges {
       node {
         items {
-          title
-          photo {
-            description
-            src: fluid(maxWidth: 1000, quality:100) {
-              ...GatsbyContentfulFluid
+          ...on ContentfulImage {
+            title
+            photo {
+              description
+              src: fluid(maxWidth: 1000, quality:100) {
+                ...GatsbyContentfulFluid
+              }
+              thumb: fixed(height: 150, width: 150) {
+                ...GatsbyContentfulFixed
+              }
             }
-            thumb: fixed(height: 150, width: 150) {
-              ...GatsbyContentfulFixed
-            } 
           }
         }
       }

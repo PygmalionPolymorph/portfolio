@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
-import galatea from '../../assets/home/galatea.png';
+import Img from 'gatsby-image';
 
 import './styles.styl';
 
-export const Home = ({ inverse }) => (
+export const Home = ({ image, inverse }) => (
   <main className={`home ${inverse ? 'inverse' : ''}`}>
     <section className="home__section home__head">
-      <img className="home__statue" src={galatea} alt="A statue of a black haired and black eyed woman, with a man kneeling behind it, hugging the woman's foot in humility." />
+      <Img fluid={image.photo.src} className="home__statue" alt={image.photo.description} />
       <h1 className="home__pygmalionpolymorph">
         <span className="home__pygmalion">Πυγμαλιων</span>
         <span className="home__polymorph">Πολυμορφ</span>

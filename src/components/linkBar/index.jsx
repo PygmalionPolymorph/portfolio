@@ -11,7 +11,7 @@ import './styles.styl';
 
 const linkComponents = {
   instagram: (
-    <a href="https://instagram.com/u/pygmalion_polymorph">
+    <a href="https://instagram.com/pygmalion_polymorph">
       <Instagram />
     </a>
   ),
